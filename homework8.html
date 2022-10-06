@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Homework 8</title>
+	</head>
+	<body class="main__container">
+		<header>
+			<h1 class="first__title">Псевдокласи</h1>
+		</header>
+		<main>
+			<div>
+				<h2 class="second__title">Псевдокласи стану</h2>
+				<div class="description__hover">
+					<p><span>:hover</span> Звернення до елемента у стані "при наведенні миші" Застосовується до будь-якого елемента</p>
+				</div>
+				<div class="description__active">
+					<p><span>:active</span> Звернення до елемента у стані
+					"при натиснутій клавіші миші"</p>
+				</div>
+				<div class="description__visited">
+					<p><a class="description__visited" href=""><span>:visited</span> Звернення до елемента
+					у стані "відвіданого посилання"
+					обмежена кількість властивостей</p></a>
+				</div>
+				<div class="description__focus">
+					<a class="description__focus" href="#target"><span>:focus</span> Звернення до
+					елементу у стані "фокусу". Клац сюди щоб побачити "Target"</a>
+				</div>
+				<div id="target" class="description__target">
+					<p><span>:target</span> Звернення до елемента у стані	"ефекту від посилання з іншого об'єкту"
+					</p>
+				</div>
+				<h3 class="third__title">Псевдокласи положення у коді</h3>
+				<div class="description__child">
+					<p>:first-child - Звернення до першого елементу в коді</p>
+					<p>:nth-child(even)- Звернення до конкретного елементу в коді.</p>
+					<p>:nth-child(3)(порядковий номер елементу) - Звернення до конкретного елементу в коді.</p>
+					<p>:nth-child(even) - Звернення до конкретного елементу в коді.</p>
+					<p>:last-child - Звернення до останього елементу в коді</p>
+				</div>
+				<div class="description__type">
+					<span class="not1">Перший блоковий Спан. Приклад для показу роботи :not(last-of-type) Псевдоклас виключення</span>
+					<p>:first-of-type - Звернення до першого вказаного об'єкту в коді</p>
+					<p>:nth-last-of-type(even)- Звернення до конкретного об'єкту в коді.</p>
+					<p>:nth-last-of-type(3) - Звернення до конкретного об'єкту в коді.</p>
+					<p>:nth-last-of-type(even) - Звернення до конкретного об'єкту в коді.</p>
+					<span class="not2">Другий блоковий Спан. Приклад для показу роботи :not(last-of-type) Псевдоклас виключення</span>
+					<p>:last-of-type - Звернення до останього об'єкту в коді</p>
+				</div>
+				<div class="text">
+					<p class="text">Як працюэ :before та :after ви можете побачити у зписках в домашцi з верстки</p>
+				</div>
+			</div>
+		</main>
+		<footer>
+
+		</footer>
+	</body>
+</html>

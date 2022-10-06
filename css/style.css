@@ -1,0 +1,233 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+	font-family: "Lato";
+	color: #424551;
+	line-height: 160%;
+}
+[class*="__container"] {
+	max-width: 1230px;
+	margin: 0 auto;
+}
+[class*="__title"]{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-bottom: 40px;
+}
+.main__text{
+	line-height: 160%;
+	margin-bottom: 48px;
+}
+.third__title{
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 24px;
+}
+li{
+	margin-bottom: 4px;
+}
+li::before {
+	content: "";
+	display: inline-block;
+	background: url('../img/icons/check.png') 0 50% no-repeat;
+	width: 32px;
+	height: 16px;
+}
+.sixth__title{
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+.name__box{
+	margin-bottom: 16px;
+}
+.sub__text p{
+	font-size: 20px;
+	line-height: 150%;
+	color: #787A80;
+	margin-bottom: 32px;
+}
+.rate::before{
+	content: "";
+	display: inline-block;
+	background: url('../img/icons/star.png') 0 50% no-repeat;
+	width: 30px;
+	height: 14px;
+}
+.courses::before {
+	content: "";
+	display: inline-block;
+	background: url('../img/icons/courses.png') 0 50% no-repeat;
+	width: 30px;
+	height: 14px;
+}
+.students::before {
+	content: "";
+	display: inline-block;
+	background: url('../img/icons/students.png') 0 50% no-repeat;
+	width: 30px;
+	height: 14px;}
+	ul{
+	margin-bottom: 32px;
+	}
+.link{
+	display: inline-block;
+	font-size: 30px;
+	font-weight: 700;
+	max-width: 200px;
+	max-height: 100px;
+	background-color: orange;
+	border: 2px solid darkorange;
+	border-radius: 10px;
+	text-align: center;
+}
+span{
+	font-weight: 900;
+}
+.description__hover{
+	padding: 15px;
+	border-radius: 15px;
+	background-color: darkgreen;
+	color: white;
+	margin-bottom: 15px;
+	visibility: visible;
+	opacity: 1;
+}
+.description__hover:hover{
+	visibility: hidden;
+	opacity: 0;
+}
+.description__active{
+	padding: 15px;
+	border-radius: 15px;
+	background-color: purple;
+	color: white;
+	margin-bottom: 15px;
+}
+.description__active:active {
+	background-color: navy;
+}
+.description__visited a{
+	padding: 15px;
+	border-radius: 15px;
+	background-color: deepskyblue;
+	color: white;
+	margin-bottom: 15px;
+	display: inline-block;
+}
+a:visited{
+	color: purple;
+}
+.description__focus a{
+	padding: 15px;
+	border-radius: 15px;
+	background-color: lightseagreen;
+	color: black;	
+	margin-bottom: 15px;
+	display: inline-block;
+}
+.description__focus a:focus{
+	outline: 5px dashed black;
+}
+.description__target{
+	padding: 15px;
+	border-radius: 15px;
+	background-color: hotpink;
+	color: black;
+	margin-bottom: 15px;
+	display: none;
+}
+.description__target:target{
+	display: block;
+}
+.description__child p:first-child{
+	padding: 15px;
+	border-radius: 15px;
+	background-color: pink;
+	color: navy;
+	margin-bottom: 15px;
+}
+.description__child p:last-child{
+	padding: 15px;
+	border-radius: 15px;
+	background-color: pink;
+	color: darkred;
+	margin-bottom: 15px;
+}
+.description__child p:nth-child(3){
+	padding: 15px;
+	border-radius: 15px;
+	background-color: pink;
+	color: darkgreen;
+	margin-bottom: 15px;
+}
+.description__child p:nth-child(even) 
+{
+	padding: 15px;
+	border-radius: 15px;
+	background-color: yellow;
+	color: rgb(100, 0, 90);
+	margin-bottom: 15px;
+}
+.description__type p:first-of-type{
+	padding: 15px;
+	border-radius: 15px;
+	background-color: lightblue;
+	color: darkgray;
+	margin-bottom: 15px;
+}
+.description__type p:last-of-type {
+	padding: 15px;
+	border-radius: 15px;
+	background-color: darkkhaki;
+	color: salmon;
+	margin-bottom: 15px;
+}
+.description__type p:nth-last-of-type(3){
+	padding: 15px;
+	border-radius: 15px;
+	background-color: olivedrab;
+	color: black;
+	margin-bottom: 15px;
+}
+.description__type p:nth-last-of-type(even) 
+{
+	padding: 15px;
+	border-radius: 15px;
+	background-color: orange;
+	color: black;
+	margin-bottom: 15px;
+}
+.description__type span:not(:last-of-type) 
+{
+	padding: 15px;
+	border-radius: 15px;
+	background-color: lightslategray;
+	color: black;
+	margin-bottom: 15px;
+}
+.not1
+{
+	padding: 15px;
+	border-radius: 15px;
+	background-color: white;
+	color: black;
+	margin-bottom: 15px;
+	display: inline-block;
+	}
+.not2 {
+	padding: 15px;
+	border-radius: 15px;
+	background-color: darkgoldenrod;
+	color: black;
+	margin-bottom: 15px;
+	display: inline-block;
+}
